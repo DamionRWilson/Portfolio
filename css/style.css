@@ -1,0 +1,117 @@
+h1{
+	color: black;
+	text-transform: uppercase;
+	font-size: 3em;
+    font-weight: normal;
+	margin-bottom: 0px;
+	margin-top: 0px;
+  }
+h2 {
+	color: #7d97ad;
+	text-align: center;
+	width: 100%;
+}
+h3{
+	color: black;
+	font-size: 2em;
+	margin-top: 5px;
+	font-style: italic;
+}
+p {
+	font-family: Arial;
+	color: #2d3c49;
+	text-transform: uppercase;
+	font-size: 20px;
+	text-align: center;
+}
+a {
+	font-size: 20px;
+	text-decoration: none;
+}
+.content {
+	display: flex;
+	flex-wrap: wrap;
+}
+.box {
+	max-width: 100%;
+}
+.header {
+	border-bottom: solid #7d97ad 2px;
+}
+.subs, .main {
+	border-bottom: dashed #7d97ad 1px;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+header {
+	width: 100%;
+	margin: 0.5em 0.25em;
+	display: flex;
+	flex-wrap: wrap;
+}
+.header-logo {
+	max-width:144px;
+	max-height:113px;
+	width: auto;
+	height: auto;
+	padding-top: 20px;
+}
+.header-title {
+	text-align: right;
+	width: 75%;
+	padding-top: 20px;
+}
+.hero {
+	max-width: 75%;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.link-img {
+	display: block;
+	padding: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	height: 117px;
+	width: 87.75px;
+	max-width: 33%;
+}
+.subs {
+	display: flex;
+	flex-wrap: wrap;
+}
+.link {
+	padding: 0 8px;
+	text-align: center;
+	box-sizing: border-box;
+	width: 33.33%;
+}
+@media screen and (min-width: 900px) {
+	.content {
+		max-width: 850px;
+		margin-right: auto;
+		margin-left: auto;
+	}
+}
+@media screen and (max-width: 768px) {
+	h1 {
+		text-transform: capitalize;
+	}
+}
+@media screen and (max-width: 599px) {
+	.logo {
+		width:100%;
+	}
+	.header-logo, .header-title {
+		margin-left: auto;
+		margin-right: auto;
+		display: block;
+		text-align: center;
+	}
+	.link {
+		width:100%;
+	}
+}
